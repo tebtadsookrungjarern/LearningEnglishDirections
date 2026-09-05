@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>Directions and Places</title>
+<style>
+body{
+background:#F4F1EA;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1024px;
+    margin:0 auto;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header{
+    background-color:#24435A;
+    background-image:url(images/header.jpg);
+    background-size:cover;
+    background-position:center;
+    height:256px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    color:#fff;
+    font-size:2rem;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+section{
+    display:flex;
+}
+nav{
+    background-color:#2F5D62;
+    flex:1;
+    padding:16px 10px;
+}
+nav h1{
+    color:#fff;
+    font-size:1.2rem;
+    margin-bottom:14px;
+}
+nav ul li{
+    margin-bottom:10px;
+}
+article{
+    background-color:#3F6E64;
+    flex:3;
+    padding:20px;
+    color:#fff;
+    border-left:6px solid #E3A008;
+}
+article h1{ margin-bottom:12px; }
+article h2{
+    margin:18px 0 8px;
+    display:inline-block;
+    border-bottom:2px solid rgba(255,255,255,0.5);
+    padding-bottom:3px;
+}
+article p{ margin-bottom:10px; }
+article ul{ margin:0 0 12px 20px; }
+article li{ margin-bottom:4px; }
+footer{
+    background-color:#A8452E;
+    padding:25px;
+    color: white;
+    text-align:center;
+    border-top:4px dashed rgba(255,255,255,0.6);
+}
+
+/*------------------------------------*/
+
+a:link{
+    color:#23303B;
+    text-decoration:none;
+    background-color:#E3A008;
+    display:block;
+    width:100%;
+    padding:8px 10px;
+    border-radius:6px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+a:visited{
+    color:#7A3320;
+}
+a:hover{
+    color:#1F3B4D;
+    background-color:#8FC1A9;
+    transform: translateX(4px);
+}
+a:active{
+    color:#6B3FA0;
+}
+
+.num{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:26px;
+    height:26px;
+    border-radius:50%;
+    background:#fff;
+    color:#E3A008;
+    font-weight:bold;
+    font-size:0.85rem;
+    margin-right:6px;
+    vertical-align:middle;
+}
+article h1 .num{
+    width:34px;
+    height:34px;
+    font-size:1rem;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header><h1>Directions and Places</h1></header>
+<section>
+<nav>
+<h1>Menu</h1>
+<ul style="list-style-type:none;">
+<li><a href="index.html"><span class="num">1</span> Directions</a></li>
+<li><a href="page2.html"><span class="num">2</span> Places</a></li>
+<li><a href="page3.html"><span class="num">3</span> Prepositions of Place</a></li>
+<li><a href="page4.html"><span class="num">4</span> Asking for Directions</a></li>
+<li><a href="page5.html"><span class="num">5</span> Giving Directions</a></li>
+</ul>
+</nav>
+<article>
+<h1><span class="num">1</span> Directions</h1>
+<p>This part covers the words and sentences we use to talk about direction in English &mdash; like left, right, straight, north, south, east, and west &mdash; plus words for location and routes, so you can understand and give directions correctly.</p>
+
+<h2>Key vocabulary</h2>
+<ul>
+<li><strong>left</strong> (ซ้าย)</li>
+<li><strong>right</strong> (ขวา)</li>
+<li><strong>straight</strong> (ตรงไป)</li>
+<li><strong>north</strong> (ทิศเหนือ)</li>
+<li><strong>south</strong> (ทิศใต้)</li>
+<li><strong>east</strong> (ทิศตะวันออก)</li>
+<li><strong>west</strong> (ทิศตะวันตก)</li>
+<li><strong>turn</strong> (เลี้ยว)</li>
+<li><strong>corner</strong> (มุมถนน)</li>
+<li><strong>block</strong> (ช่วงตึก/ช่วงถนน)</li>
+</ul>
+
+<h2>Example sentences</h2>
+<ul>
+<li>Turn left at the traffic light.</li>
+<li>Turn right at the bank.</li>
+<li>Go straight for two blocks.</li>
+<li>The school is to the north of the park.</li>
+<li>Walk east until you reach the station.</li>
+</ul>
+</article>
+</section>
+<footer><p>จัดทำโดย [ชื่อ-นามสกุล] ชั้น ม.... เลขที่ ....<br>โรงเรียน....</p></footer>
+</div>
+</body>
+</html>
